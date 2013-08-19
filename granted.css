@@ -56,6 +56,23 @@
 
 }
 
+#bodybody #end-time {
+	letter-spacing: -1px;
+	margin-left: 10px;
+}
+
+#bodybody #start-time {
+	letter-spacing: -1px;
+	margin-right: 10px;
+}
+
+#bodybody #left-time {
+	font-size: 150%;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin: 0 10px;
+}
+
 #bodybody #progress-cont {
 	background: #ddd;
 	position: fixed;
@@ -63,6 +80,7 @@
 	left: 20px;
 	right: 20px;
 	border-radius: 4px;
+	overflow: hidden;
 	box-shadow: 0 0 2px rgba(0,0,0,0.1);
 }
 
